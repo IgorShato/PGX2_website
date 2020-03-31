@@ -23,18 +23,19 @@ body {
     margin-right: 6%;
 }
 .mission_title {
-    margin-left: 100px;
+    margin-left: 110px;
+    margin-top: 45px;
     width: 480px;
     font-weight: bold;
 }
 .microscope {
-    margin-left: 60px;
+    margin-left: 65px;
 }
 /* кнопка в хедере */
 .btn-success {
     background-color: #6FB0A8;
     font-size: 1.8em;
-    margin-left: 37%;
+    margin-left: 30%;
     margin-top: 22%;
     padding: 1.5% 2.5% 1.5% 2.5%;
     border: solid 1px #6FB0A8;
@@ -86,7 +87,7 @@ body {
   /* второй блок, серый */
   .container_gray {
       background-color: #F2F2F2;
-      padding: 60px 80px 60px 80px;
+      padding: 110px 80px 110px 80px;
   }
   /* лого */
   .logo {
@@ -101,19 +102,19 @@ body {
   }
   /* цветная цепочка */
   .container_color_dnk {
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 66px;
+      margin-bottom: 66px;
   }
   /* как это работает, заголовок */
 .container_works {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 62px;
+    margin-bottom: 62px;
 }
 
   /*  параллакс */
   .container_parallax {
     background-image: url(../img/blue_parallax.jpg);
-    height: 500px;
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,8 +122,8 @@ body {
     margin-top: 20px;
   }
   .container_parallax_2 {
-    background-image: url(../img/unicorn_parallax.jpg);
-    height: 500px;
+    background-image: url(../img/parallax_img1.jpg);
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,13 +137,13 @@ body {
     background-color: #3D3D3D;
     opacity: 0.8;
     padding: 10px 20px 10px 20px;
-    margin-left: 42px;
-    margin-top:  120px;
+    margin-left: 28%;
+    margin-top:  16%;
     border: 1px solid #3D3D3D;
     position: absolute;
     z-index: 2;
     width: 36%;
-    text-align: left;
+    text-align: center;
 }
 .container_parallax_text_2 {
     /*width: 380px;*/
@@ -150,13 +151,13 @@ body {
     background-color: #3D3D3D;
     opacity: 0.8;
     padding: 10px 20px 10px 20px;
-    margin-left: 780px;
-    margin-top:  120px;
+    margin-left: 28%;
+    margin-top:  18%;
     border: 1px solid #3D3D3D;
     position: absolute;
     z-index: 2;
-    width: 32%;
-    text-align: left;
+    width: 36%;
+    text-align: center;
 }
 
 /* зеленый блок */
@@ -200,7 +201,10 @@ body {
       text-align: right;
   }
   
-
+  .container_hand {
+      margin-left: 110px;
+  }
+  
 /* стили для маленьких экранов */
 
   @media only screen and (min-width: 320px) and (max-width: 769px) {
@@ -215,9 +219,11 @@ body {
       /* скрываем цветную цепочку */
       .container_color_dnk  {
           display: none;
-      } 
+      }
+      
+      .container_hand {
+      margin: 4px 4px 4px 4px;
+  }
+  
     }
-
-
-
 

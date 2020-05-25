@@ -3,13 +3,13 @@ body {
     color: #4B7872;
 }
 
-/* хедер */
+/* header */
 .container_header {
     background-image: url(../img/web_medium.png);
     background-repeat: no-repeat;
     background-position: cover;
 }
-/* заголовки */
+/* headlines */
 .h1_title {
     text-align: right;
     margin-top: 6%;
@@ -31,7 +31,7 @@ body {
 .microscope {
     margin-left: 65px;
 }
-/* кнопка в хедере */
+/* button in the header */
 .btn-success {
     background-color: #6FB0A8;
     font-size: 1.8em;
@@ -45,7 +45,7 @@ body {
     color: #4B7872;
     border: solid 1px #6FB0A8;
 }
-/* меню */
+/* menu */
 .nav-link {
     font-size: 13px;
     margin: 0 4px 0 4px;
@@ -53,7 +53,7 @@ body {
 .nav-link:hover {
     text-decoration: underline;
 }
-/* кнопка получить анализ */
+/* get analysis button */
 .btn-info {
     background-color: #000000;
     border: solid 1px #000000;
@@ -62,7 +62,7 @@ body {
     background-color: #DEDEDE;
     color: #000000;
 }
-/* иконки соцсетей */
+/* social */
 .fa {
     padding: 8px 3px 8px 3px;
     margin: 5px;
@@ -80,38 +80,38 @@ body {
       color: #000000;
   }
   
-  /* горизонтальная пунктирная линия */
+  /* dashed line */
   .line {
       border: 2px dashed #909090;
   }
-  /* второй блок, серый */
+  /* 2nd block, gray */
   .container_gray {
       background-color: #F2F2F2;
       padding: 110px 80px 110px 80px;
   }
-  /* лого */
+  /* logo */
   .logo {
       margin-right: 42px;
       margin-left: 16px;
   }
-  /* блок преимуществ */
+  /* advantages, block */
   .container_profit {
       margin-top: 25px;
       margin-bottom: 25px;
       color: #000000;
   }
-  /* цветная цепочка */
+  /* color line */
   .container_color_dnk {
       margin-top: 66px;
       margin-bottom: 66px;
   }
-  /* как это работает, заголовок */
+  /* how it works, headline */
 .container_works {
     margin-top: 62px;
     margin-bottom: 62px;
 }
 
-  /*  параллакс */
+  /*  parallax */
   .container_parallax {
     background-image: url(../img/blue_parallax.jpg);
     height: 600px;
@@ -130,7 +130,7 @@ body {
     background-size: cover;
     margin-top: 20px;
   }
-/* блоки с текстом в параллаксе */
+/* text in the parallax  */
 .container_parallax_text {
     /*width: 380px;*/
     color: #FFFFFF;
@@ -160,7 +160,7 @@ body {
     text-align: center;
 }
 
-/* зеленый блок */
+/* green block */
 .container_bases {
     color: #FFFFFF;
     background-color: #4B7872;
@@ -171,7 +171,7 @@ body {
     padding-left: 11%;
     padding-right: 11%;
 }
-/* блок с публикациями */
+/* publications   */
 .container_public {
     background-color: #BFBFBF;
     padding: 40px 120px 40px 120px;
@@ -189,13 +189,13 @@ body {
     color: #4B7872;
 }
 
-  /* футер */
+  /* footer */
   .container_footer {
       background-color: #F2F2F2;
       color: #000000;
       padding: 40px 10px 20px 10px;
   }
-/* копирайт */
+/* copy */
   .copy {
       font-size: 12px;
       text-align: right;
@@ -205,18 +205,18 @@ body {
       margin-left: 110px;
   }
   
-/* стили для маленьких экранов */
+/* for the small screen */
 
   @media only screen and (min-width: 320px) and (max-width: 769px) {
-    /* скрываем кнопки соцсетей из меню  */  
+    /* social buttons - off  */  
     .social {
           display: none;
       }
-      /* зеленый блок, меняем отступы */
+      /* green block, change paddings */
       .container_bases {
         padding: 15px 20px 15px 20px;
       } 
-      /* скрываем цветную цепочку */
+      /* color line off */
       .container_color_dnk  {
           display: none;
       }
@@ -226,4 +226,4 @@ body {
   }
   
     }
-
+    

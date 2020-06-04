@@ -1,8 +1,8 @@
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #4B7872;
 }
-
 /* header */
 .container_header {
     background-image: url(../img/web_medium.png);
@@ -165,7 +165,7 @@ body {
     color: #FFFFFF;
     background-color: #4B7872;
     padding: 40px 72px 40px 72px;
-    font-size: 18px;
+    font-size: 18.5px;
 }
 .title_bases, .text_bases {
     padding-left: 11%;
@@ -173,9 +173,15 @@ body {
 }
 /* publications   */
 .container_public {
-    background-color: #BFBFBF;
+    background-color: #FFFFFF;
     padding: 40px 120px 40px 120px;
 }
+/* text for publications */
+.headline_public {
+    font-size: 18px;
+    color: #51004D;
+}
+/*
 .card-title {
     color: #000000;
 }
@@ -188,24 +194,23 @@ body {
     background-color: #FFFFFF;
     color: #4B7872;
 }
-
+*/
   /* footer */
   .container_footer {
       background-color: #F2F2F2;
       color: #000000;
       padding: 40px 10px 20px 10px;
   }
-/* copy */
+/* copyright */
   .copy {
       font-size: 12px;
       text-align: right;
   }
-  
   .container_hand {
       margin-left: 110px;
   }
   
-/* for the small screen */
+/* for the small screens */
 
   @media only screen and (min-width: 320px) and (max-width: 769px) {
     /* social buttons - off  */  
